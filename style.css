@@ -1,0 +1,165 @@
+*{
+    padding: 0%;
+    margin: 0;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #FFFCF8;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   background: #FFFFFF;
+}
+
+.logo{
+    width: 59px;
+    margin: 20px;
+    left: 45px;
+  font-weight: 500;
+  text-shadow: gray;
+  font-size: 22px;
+  color: #14203E3D;
+  line-height: 28.6px;
+}
+.muno{
+display: flex;
+ width: 503px;
+ gap: 56px;
+}
+.muno ul li{
+    font-size: 18px;
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+        position: relative;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+margin-right: 20px;
+    gap: 10px;
+}
+.LogIn {
+    width: 111px;
+    top: 20px;
+    height: 49px;
+font-weight: 400;
+font-size: 14px;
+border: 0.5px;
+border-radius: 10px;
+background: #F6F0E8;
+cursor: pointer;
+}
+.StartFreeTrial{
+    width: 119px;
+    top: 20px;
+    height: 49px;
+    font-weight: 400;
+    font-size: 14px;
+    border: 0.5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #14203E;
+    cursor: pointer;
+}
+
+.line{
+    border: 1px solid #dbd5d5;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+
+}
+.homePageP1{
+   text-align: center;
+}
+.homePageP1 h1{
+left: 500px;
+opacity: 0px;
+margin-bottom:20px ;
+color: #14203E;
+}
+
+.homePageP1 p{
+color: #14203E;
+size: 22px;
+font-weight: 600;
+line-height: 28.6px;
+}
+
+.btn2 button{
+    width: 172px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 0.5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #14203E;
+    cursor: pointer;
+}
+
+.homePageP2{
+    margin-top:150px;
+    padding: 20px;
+}
+.header {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header h3::before,
+.header h3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%; 
+    height: 0.3px;
+    background-color: #ccc;
+}
+
+.header h3::before {
+    left: -50px;
+}
+
+.header h3::after {
+    right: -50px;
+}
+.homePageP2 h3{
+    font-weight: 600;
+    line-height: 18px;
+    size: 14px;
+    color: #14203E;
+    text-align: center;
+}
+
+.col{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+.rows h2{
+font-size: 18px;
+line-height: 23px;
+color: #14203E;
+font-weight: 700;
+margin-top: 16px;
+}
+.rows span{
+font-size: 14px;
+color: #14203E;
+font-weight: 400;
+line-height: 18px;
+
+}
