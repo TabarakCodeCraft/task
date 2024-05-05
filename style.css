@@ -17,6 +17,8 @@ nav{
 }
 /* update  */
 .logo{
+    width: 200px;
+    text-align: left;
    margin: 20px 10px;
    left: 45px;
   font-weight: 500;
@@ -43,6 +45,7 @@ display: flex;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    width: 240px;
 }
 .LogIn {
     width: 120px;
